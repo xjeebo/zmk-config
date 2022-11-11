@@ -40,8 +40,8 @@
 		 func_layer {
 			 bindings = <
 								&none           &reset          &bootloader
-				&out OUT_TOG    &out OUT_USB    &out OUT_BLE    &none
-				&bt BT_SEL 0    &bt BT_PRV      &bt BT_NXT      &bt BT_CLR
+				&out OUT_TOG    &kp W    &out OUT_BLE    &none
+				&kp A    &kp S       &kp D      &bt BT_CLR
 				&bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &tog 0
 				&kp C_MUTE      &none           &none           &none
 			 >;
